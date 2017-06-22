@@ -231,7 +231,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.oracle_schema"/>
     <elementParameter field="TEXT" name="USER" value="context.oracle_username"/>
     <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kuc/HXMH4zjBGjzwIWLRn4IG"/>
-    <elementParameter field="DBTABLE" name="TABLE" value="&quot;TEST_BULK&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;tdi38154&quot;+pid"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="FILE" name="FILENAME" value="context.data_output_dir + &quot;/&quot; +  jobName + &quot;/&quot;+ pid + &quot;output.csv&quot;"/>
     <elementParameter field="CHECK" name="CREATE" value="true"/>
@@ -257,16 +257,7 @@
     <elementParameter field="FILE" name="FIELD_CONDITION_VALUE" value="&quot;country='France'&quot;" show="false"/>
     <elementParameter field="CHECK" name="PRESERVE_BLANKS" value="false"/>
     <elementParameter field="CHECK" name="TRAILING_NULLCOLS" value="false"/>
-    <elementParameter field="TABLE" name="OPTIONS">
-      <elementValue elementRef="KEY" value="BINDSIZE"/>
-      <elementValue elementRef="VALUE" value="context.bindsize"/>
-      <elementValue elementRef="KEY" value="RESUMABLE"/>
-      <elementValue elementRef="VALUE" value="context.resumable"/>
-      <elementValue elementRef="KEY" value="RESUMABLE_NAME"/>
-      <elementValue elementRef="VALUE" value="context.resumablename"/>
-      <elementValue elementRef="KEY" value="SILENT"/>
-      <elementValue elementRef="VALUE" value="context.silent"/>
-    </elementParameter>
+    <elementParameter field="TABLE" name="OPTIONS"/>
     <elementParameter field="CLOSED_LIST" name="NLS_LANGUAGE" value="DEFAULT"/>
     <elementParameter field="CHECK" name="SET_NLS_TERRITORY" value="true"/>
     <elementParameter field="CLOSED_LIST" name="NLS_TERRITORY" value="DEFAULT"/>
@@ -497,7 +488,7 @@
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;drop table TEST_BULK&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;drop table &quot; + &quot;tdi38154&quot;+pid"/>
     <elementParameter field="CLOSED_LIST" name="USE_NB_LINE" value="NONE"/>
     <elementParameter field="LABEL" name="USE_NB_LINE_NOTE" value="* Just the Query is Insert/Update/Delete SQL."/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
