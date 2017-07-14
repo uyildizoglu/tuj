@@ -22,13 +22,13 @@
     <contextParameter comment="" name="exa_schema" prompt="exa_schema?" promptNeeded="false" type="id_String" value=""/>
     <contextParameter comment="" name="exa_password" prompt="exa_password?" promptNeeded="false" type="id_Password" value=""/>
     <contextParameter comment="" name="exa_database" prompt="exa_database?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="mssql_host" prompt="mssql_host?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="mssql_password" prompt="mssql_password?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="mssql_port" prompt="mssql_port?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="mssql_username" prompt="mssql_username?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="mssql_database" prompt="mssql_database?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="mssql_schema" prompt="mssql_schema?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="mssql_addPara" prompt="mssql_addPara?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="mssql2016_host" prompt="mssql2016_host?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="mssql2016_password" prompt="mssql2016_password?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="mssql2016_port" prompt="mssql2016_port?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="mssql2016_username" prompt="mssql2016_username?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="mssql2016_database" prompt="mssql2016_database?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="mssql2016_schema" prompt="mssql2016_schema?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="mssql2016_addPara" prompt="mssql2016_addPara?" promptNeeded="false" type="id_String" value=""/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="96" show="false"/>
@@ -413,13 +413,13 @@
   </node>
   <node componentName="tJDBCConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="96">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJDBCConnection_1" show="false"/>
-    <elementParameter field="TEXT" name="URL" value="&quot;jdbc:jtds:sqlserver://&quot;+context.mssql_host+&quot;:&quot;+context.mssql_port+&quot;/&quot;+context.mssql_database+&quot;;&quot;+context.mssql_addPara"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;jdbc:jtds:sqlserver://&quot;+context.mssql2016_host+&quot;:&quot;+context.mssql2016_port+&quot;/&quot;+context.mssql2016_database+&quot;;&quot;+context.mssql2016_addPara"/>
     <elementParameter field="TABLE" name="DRIVER_JAR">
       <elementValue elementRef="JAR_NAME" value="jtds-1.3.1-patch.jar"/>
     </elementParameter>
     <elementParameter field="TEXT" name="DRIVER_CLASS" value="&quot;net.sourceforge.jtds.jdbc.Driver&quot;"/>
-    <elementParameter field="TEXT" name="USER" value="context.mssql_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kudfa1EelI9bxat5LFAAAZsZ"/>
+    <elementParameter field="TEXT" name="USER" value="context.mssql2016_username"/>
+    <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kufDs46YJTtGz2TV/TEuU9Rt7+9RSnqiPCI="/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
