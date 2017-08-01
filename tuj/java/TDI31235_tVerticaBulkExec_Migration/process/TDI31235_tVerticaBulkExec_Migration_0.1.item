@@ -529,7 +529,7 @@
   </node>
   <node componentName="tVerticaBulkExec" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="288" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tVerticaBulkExec_1" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="VERTICA_7_0_X"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="VERTICA_7_1_X"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tVerticaConnection_1" show="false"/>
     <elementParameter field="TEXT" name="HOST" value="context.vertica71_host"/>
@@ -565,7 +565,7 @@
   </node>
   <node componentName="tVerticaInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="288" posY="416">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tVerticaInput_1" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="VERTICA_7_0_X"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="VERTICA_7_1_X"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tVerticaConnection_1" show="false"/>
     <elementParameter field="TEXT" name="HOST" value="context.vertica71_host"/>
@@ -660,7 +660,7 @@
   </node>
   <node componentName="tVerticaBulkExec" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="288" posY="608">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tVerticaBulkExec_2" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="VERTICA_7_0_X"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="VERTICA_7_1_X"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tVerticaConnection_2" show="false"/>
     <elementParameter field="TEXT" name="HOST" value="context.vertica71_host"/>
@@ -696,7 +696,7 @@
   </node>
   <node componentName="tVerticaInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="288" posY="704">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tVerticaInput_2" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="VERTICA_7_0_X"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="VERTICA_7_1_X"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tVerticaConnection_2" show="false"/>
     <elementParameter field="TEXT" name="HOST" value="context.vertica71_host"/>
@@ -791,7 +791,7 @@
   </node>
   <node componentName="tVerticaRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="576" posY="608">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tVerticaRow_1" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="VERTICA_7_0_X"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="VERTICA_7_1_X"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tVerticaConnection_1" show="false"/>
     <elementParameter field="TEXT" name="HOST" value="context.vertica71_host"/>
