@@ -387,7 +387,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tAssert_1" show="false"/>
     <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="D:\talend-tools\builds\Talend-Studio-20150908_1633-V6.0.1\configuration\lib\java" show="false"/>
     <elementParameter field="TEXT" name="DESCRIPTION" value="jobName"/>
-    <elementParameter field="MEMO_JAVA" name="EXPRESSION" value="true"/>
+    <elementParameter field="MEMO_JAVA" name="EXPRESSION" value="((String)globalMap.get(&quot;tFileInputPositional_1_ERROR_MESSAGE&quot;)) != null"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tAssert_1">
       <column comment="" key="false" length="-1" name="rowCount" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
